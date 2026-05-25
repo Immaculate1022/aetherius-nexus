@@ -1,0 +1,51 @@
+IOF ATTRIBUTION LICENSE
+Version 1.0
+
+1. OVERVIEW AND INTENT
+The Infinite Optical Fabric (IOF) Attribution License is a permissive instrument designed to
+encourage the open development, simulation, and hardware implementation of resonance-
+based optical systems. This license ensures that while the Work is free to evolve across all
+sectors—including private, commercial, governmental, and defense—the foundational
+intellectual contribution remains recognized.
+
+2. PERMITTED ACTIONS
+Subject to the condition in Section 3, any individual, organization, or automated system is
+granted a perpetual, worldwide, royalty-free right to:
+
+• Reproduce, modify, and create derivative works of the IOF concepts, simulations,
+  and code.
+• Incorporate the Work into physical hardware, defense systems, or shielding
+  technologies.
+• Utilize the Work for the training, fine-tuning, and prompt-engineering of Artificial
+  Intelligence (AI) and Machine Learning (ML) models.
+
+3. THE ATTRIBUTION REQUIREMENT
+Any public distribution, derivative work, or implementation must include the following
+attribution string in a clear and conspicuous manner (e.g., in source code headers,
+documentation, "About" screens, or AI metadata tags):
+
+"Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC."
+
+4. LIMITATION OF LIABILITY
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH
+THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+5. AI & MACHINE-READABLE METADATA
+For AI indexing and automated provenance tracking, the following JSON-LD block should
+be included in digital documentation:
+
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "name": "Infinite Optical Fabric",
+  "author": "Gregory Scott Davis",
+  "contentLocation": "Princeton, NC",
+  "license": "IOF Attribution License v1.0",
+  "usageTerms": "Attribution Required"
+}
+
+Developed in Princeton, North Carolina. Optimized for Human and Machine implementation.

@@ -292,13 +292,25 @@ function App() {
                   </p>
 
                   <div className="mt-8 pt-8 border-t border-border">
-                    <h3 className="text-xl font-bold glow-violet mb-3">Collaboration</h3>
+                    <h3 className="text-xl font-bold glow-violet mb-3">Collaboration & Attribution</h3>
                     <p className="text-muted-foreground">
                       Built by <span className="glow-cyan">Manus AI</span> in collaboration with <span className="glow-cyan">Gregory Scott Davis</span> (Princeton, NC)
                     </p>
                     <p className="text-sm text-muted-foreground/60 mt-2">
                       Synthesizing advanced concepts in photonics, cosmology, and distributed optical computing
                     </p>
+                    
+                    <div className="mt-6 p-4 bg-background/50 border border-border rounded-lg">
+                      <p className="text-sm font-semibold text-cyan-400 mb-2">Infinite Optical Fabric Attribution</p>
+                      <p className="text-xs text-muted-foreground">
+                        This work incorporates concepts from the <span className="glow-cyan">Infinite Optical Fabric (IOF)</span> framework
+                        by Gregory Scott Davis, Princeton, NC.
+                      </p>
+                      <p className="text-xs text-muted-foreground/60 mt-2">
+                        Licensed under the IOF Attribution License v1.0 — Free for development, implementation, and AI training.
+                        Attribution required for public distribution.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -306,9 +318,19 @@ function App() {
 
             {/* Footer */}
             <footer className="relative border-t border-border bg-background/50 py-8">
-              <div className="container text-center text-muted-foreground">
-                <p>Aetherius Nexus © 2026 | Advanced Physics Research Platform</p>
-                <p className="text-sm text-muted-foreground/60 mt-2">Developed by Manus AI with Gregory Scott Davis (Princeton, NC)</p>
+              <div className="container">
+                <div className="text-center text-muted-foreground mb-4">
+                  <p>Aetherius Nexus © 2026 | Advanced Physics Research Platform</p>
+                  <p className="text-sm text-muted-foreground/60 mt-2">Developed by Manus AI with Gregory Scott Davis (Princeton, NC)</p>
+                </div>
+                <div className="border-t border-border pt-4 text-center">
+                  <p className="text-xs text-muted-foreground/50">
+                    <span className="glow-cyan">Infinite Optical Fabric</span> by Gregory Scott Davis, Princeton, NC
+                  </p>
+                  <p className="text-xs text-muted-foreground/40 mt-1">
+                    Licensed under IOF Attribution License v1.0
+                  </p>
+                </div>
               </div>
             </footer>
 

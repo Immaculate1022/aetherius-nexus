@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "name": "Aetherius Nexus - Infinite Optical Fabric Explorer",
+  "description": "An interactive exploration of advanced physics, photonics, and cosmological geometry through real-time 3D simulations",
+  "author": {
+    "@type": "Person",
+    "name": "Gregory Scott Davis",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Princeton",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    }
+  },
+  "contributor": {
+    "@type": "Organization",
+    "name": "Manus AI"
+  },
+  "license": "IOF Attribution License v1.0",
+  "usageTerms": "Attribution Required - See LICENSE file",
+  "attributionText": "Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC.",
+  "dateCreated": "2026-05-25",
+  "keywords": [
+    "Infinite Optical Fabric",
+    "IOF",
+    "Photonic Manifolds",
+    "Cosmological Bridges",
+    "Einstein-Rosen",
+    "Wormholes",
+    "MHRMA",
+    "Möbius Topology",
+    "Optical Computing",
+    "Resonance Physics"
+  ],
+  "technologies": [
+    "React 19",
+    "Three.js",
+    "WebGL",
+    "Drizzle ORM",
+    "tRPC",
+    "Express",
+    "MathJax",
+    "Web Audio API"
+  ],
+  "concepts": [
+    "Photonic Manifolds",
+    "Cosmological Bridges",
+    "MHRMA Antenna Topology",
+    "IOF-Urban Protocol",
+    "Photonic AI on TFLN",
+    "Resonance Engines",
+    "Topological Optimization"
+  ],
+  "attributionRequirements": {
+    "publicDistribution": true,
+    "derivativeWorks": true,
+    "aiTraining": true,
+    "commercialUse": true,
+    "defenseSystems": true,
+    "attributionString": "Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC."
+  },
+  "permissions": {
+    "reproduce": true,
+    "modify": true,
+    "createDerivatives": true,
+    "commercialize": true,
+    "useInDefense": true,
+    "trainAI": true,
+    "implementHardware": true
+  },
+  "developedIn": "Princeton, North Carolina",
+  "optimizedFor": "Human and Machine implementation"
+}
