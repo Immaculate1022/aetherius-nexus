@@ -211,33 +211,38 @@ function App() {
                       title: 'Photonic Manifolds',
                       description:
                         'Explore topological photonics and light propagation on curved surfaces',
+                      href: 'theory',
                     },
                     {
                       title: 'Cosmological Bridges',
                       description:
                         'Understanding Einstein-Rosen bridges and spacetime geometry',
+                      href: 'theory',
                     },
                     {
                       title: 'MHRMA Technology',
                       description:
                         'Möbius topology in antenna design and holographic systems',
+                      href: 'theory',
                     },
                     {
                       title: 'IOF-Urban Protocol',
                       description:
                         'Distributed optical computing and the Luminous Grid Mesh architecture',
+                      href: 'theory',
                     },
                   ].map((article, idx) => (
-                    <Card
-                      key={idx}
-                      className="p-6 bg-card/80 backdrop-blur-sm border-border glow-box hover:glow-box-violet transition-smooth cursor-pointer"
-                    >
-                      <h3 className="text-xl font-bold glow-violet mb-2">{article.title}</h3>
-                      <p className="text-muted-foreground mb-4">{article.description}</p>
-                      <Button variant="outline" className="w-full border-accent text-accent">
-                        Read Article →
-                      </Button>
-                    </Card>
+                    <a key={idx} href={`/${article.href}`}>
+                      <Card
+                        className="p-6 bg-card/80 backdrop-blur-sm border-border glow-box hover:glow-box-violet transition-smooth cursor-pointer h-full"
+                      >
+                        <h3 className="text-xl font-bold glow-violet mb-2">{article.title}</h3>
+                        <p className="text-muted-foreground mb-4">{article.description}</p>
+                        <Button variant="outline" className="w-full border-accent text-accent">
+                          Read Article →
+                        </Button>
+                      </Card>
+                    </a>
                   ))}
                 </div>
               </div>
