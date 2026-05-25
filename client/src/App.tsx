@@ -290,6 +290,16 @@ function App() {
                     for interactive exploration and parameter adjustment. The interface uses a
                     refined dark cosmic aesthetic with neon accents and smooth animations.
                   </p>
+
+                  <div className="mt-8 pt-8 border-t border-border">
+                    <h3 className="text-xl font-bold glow-violet mb-3">Collaboration</h3>
+                    <p className="text-muted-foreground">
+                      Built by <span className="glow-cyan">Manus AI</span> in collaboration with <span className="glow-cyan">Gregory Scott Davis</span> (Princeton, NC)
+                    </p>
+                    <p className="text-sm text-muted-foreground/60 mt-2">
+                      Synthesizing advanced concepts in photonics, cosmology, and distributed optical computing
+                    </p>
+                  </div>
                 </div>
               </div>
             </section>
@@ -298,6 +308,7 @@ function App() {
             <footer className="relative border-t border-border bg-background/50 py-8">
               <div className="container text-center text-muted-foreground">
                 <p>Aetherius Nexus © 2026 | Advanced Physics Research Platform</p>
+                <p className="text-sm text-muted-foreground/60 mt-2">Developed by Manus AI with Gregory Scott Davis (Princeton, NC)</p>
               </div>
             </footer>
 
