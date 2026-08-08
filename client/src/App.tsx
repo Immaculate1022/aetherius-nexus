@@ -304,7 +304,7 @@ function App() {
                       <p className="text-sm font-semibold text-cyan-400 mb-2">Infinite Optical Fabric Attribution</p>
                       <p className="text-xs text-muted-foreground">
                         This work incorporates concepts from the <span className="glow-cyan">Infinite Optical Fabric (IOF)</span> framework
-                        by Gregory Scott Davis, Princeton, NC.
+                        by Gregory Scott Davis, Princeton, NC, developed under <span className="glow-cyan">PegaConstellation</span>.
                       </p>
                       <p className="text-xs text-muted-foreground/60 mt-2">
                         Licensed under the IOF Attribution License v1.0 — Free for development, implementation, and AI training.
@@ -321,7 +321,7 @@ function App() {
               <div className="container">
                 <div className="text-center text-muted-foreground mb-4">
                   <p>Aetherius Nexus © 2026 | Advanced Physics Research Platform</p>
-                  <p className="text-sm text-muted-foreground/60 mt-2">Developed by Manus AI with Gregory Scott Davis (Princeton, NC)</p>
+                  <p className="text-sm text-muted-foreground/60 mt-2">Developed by Manus AI with Gregory Scott Davis (Princeton, NC) and PegaConstellation</p>
                 </div>
                 <div className="border-t border-border pt-4 text-center">
                   <p className="text-xs text-muted-foreground/50">
