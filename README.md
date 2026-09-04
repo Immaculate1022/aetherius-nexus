@@ -1,4 +1,4 @@
-# Aetherius Nexus
+# PegaConstellation > IOF > Aetherius Nexus
 
 **Interactive physics research platform** built as part of the PegaConstellation / Infinite Optical Fabric ecosystem.
 
