@@ -1,66 +1,58 @@
-# PegaConstellation > IOF > Aetherius Nexus
+# Aetherius Nexus
 
-**Interactive physics research platform** built as part of the PegaConstellation / Infinite Optical Fabric ecosystem.
+**Aetherius Nexus** is an experimental, browser-based space for exploring physics- and photonics-inspired visual models. It is part of the PegaConstellation / Infinite Optical Fabric (IOF) ecosystem and is for curious learners, researchers, and builders who want to inspect and adjust interactive 3D scenes rather than start from a blank project.
 
-> A living workspace for exploring resonance, topology, photonic computation concepts, and human–AI collaborative research.
+**Try it locally:** clone the repository, run `pnpm install` and `pnpm dev`, then open the local address printed by the server. The default page includes the current WebGL explorations and their controls.
 
----
+## What you can explore today
 
-## Current surface (honest)
+The default experience contains interactive 3D visualizations for:
 
-| Layer | Status |
-|-------|--------|
-| Full-stack foundation | Present — React 19 + TypeScript, Vite, tRPC, Drizzle, Express |
-| 3D / visualization deps | Present in `package.json` (`three`, `@react-three/fiber`, `@react-three/drei`) |
-| Interactive research tools | Still on the roadmap (see `todo.md`) |
-| Production deployment | Not claimed |
+- a photonic-manifold-inspired surface, with frequency, curvature, and topology controls;
+- a cosmological-bridge-inspired tunnel, with curvature and entanglement controls; and
+- an MHRMA-inspired Möbius-strip visualization, with phase and resonance controls.
 
-This repo is a **foundation**, not a finished lab. The stack is in place so visualizations and collaborative tools can be built on top without starting from zero.
+The project also includes a theory-library route at `/theory` and a research-assistant interface at `/assistant`.
 
-For the constellation-wide “what actually runs” map, see:
-- [WHAT_RUNS_TODAY.md](https://github.com/Immaculate1022/pegaconstellation-hub/blob/main/WHAT_RUNS_TODAY.md)
-- [STATUS.md](https://github.com/Immaculate1022/pegaconstellation-hub/blob/main/STATUS.md)
+## Quick start
 
-## Quick start (foundation)
+You need a current Node.js installation and [pnpm](https://pnpm.io/). The repository declares pnpm as its package manager.
 
 ```bash
 git clone https://github.com/Immaculate1022/aetherius-nexus.git
 cd aetherius-nexus
-pnpm install          # packageManager is pnpm
-pnpm dev              # development server (see package.json scripts)
-pnpm check            # TypeScript noEmit check
-pnpm test             # vitest
+pnpm install
+pnpm dev
 ```
 
-Expect a modern app shell, not the full set of photonic simulators listed in `todo.md` yet.
+Open the local URL printed in the terminal (normally `http://localhost:3000`). Use the parameter panel on the default page to change the visualizations. You can also visit `/theory` for the included theory pages and `/assistant` for the assistant interface.
 
-## Overview
+For local checks, run:
 
-Aetherius Nexus is designed as an interactive environment where physics, systems philosophy, and AI-assisted research meet. It draws on the same core ideas that power the rest of the constellation:
+```bash
+pnpm check
+pnpm test
+```
 
-- Resonance and phase coherence
-- Topological structures (including Möbius-inspired patterns)
-- Photonic / optical computing metaphors
-- Open attribution-based licensing for both humans and AI systems
+## Status and scope
 
-## Relationship to the Ecosystem
+Aetherius Nexus is an **experimental research-visualization project**, not a validated scientific simulator or a production deployment. The current client renders animated Three.js/WebGL scenes and exposes visual controls. These scenes are illustrative explorations of the project's concepts; their controls change rendering and animation behavior, and should not be treated as physical measurements, engineering predictions, or experimental results.
 
-| Project | Connection |
-|---------|------------|
-| [IOF-Resonance-Core](https://github.com/Immaculate1022/IOF-Resonance-Core) | Core resonance engine, visualizations, and design language |
-| [moebius-llama](https://github.com/Immaculate1022/moebius-llama) | Self-reflective transformer architecture for enhanced reasoning |
-| [tesseract-medium](https://github.com/Immaculate1022/tesseract-medium) | 4D geometry substrate (v0.3 tensors + orientation) |
-| [iof-design-grammar](https://github.com/Immaculate1022/iof-design-grammar) | Systems philosophy and architectural primitives |
-| [AHR-Endpoint](https://github.com/Immaculate1022/AHR-Endpoint) | Complementary security / immune-system layer |
-| [pegaconstellation-hub](https://github.com/Immaculate1022/pegaconstellation-hub) | Central map of the entire constellation |
+Several planned capabilities remain on the roadmap in [`todo.md`](todo.md), including additional simulator behavior, richer theory content, connected controls, and an LLM-backed assistant. The `/assistant` interface currently returns locally simulated, prewritten responses; it does not call an LLM backend. The topology selector's `klein` option is presently rendered as a torus approximation. See [`todo.md`](todo.md) for the project’s tracked work.
 
-## License
+## Project context
 
-This project is released under the **IOF Attribution License v1.0**.  
-See `LICENSE` and `IOF_ATTRIBUTION.md` for full details.
+Aetherius Nexus builds on the Infinite Optical Fabric framework. For the constellation-wide status map and current-project overview, see the [PegaConstellation hub](https://github.com/Immaculate1022/pegaconstellation-hub), including its [what runs today map](https://github.com/Immaculate1022/pegaconstellation-hub/blob/main/WHAT_RUNS_TODAY.md).
 
-**Required attribution for public use:**  
-`Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC.`
+## License and attribution
+
+This project is provided under the **IOF Attribution License v1.0**; see [`LICENSE`](LICENSE) for the complete terms. The license permits reproduction, modification, derivative works, hardware implementation, and AI/ML use, subject to its attribution requirement for public distributions, derivative works, and implementations.
+
+Required attribution:
+
+> Infinite Optical Fabric by Gregory Scott Davis, Princeton, NC.
+
+See [`IOF_ATTRIBUTION.md`](IOF_ATTRIBUTION.md) for attribution guidance.
 
 ---
 
