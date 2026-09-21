@@ -18,7 +18,7 @@ export const CosmologicalBridgeVisualizer: React.FC<CosmologicalBridgeProps> = (
   const wormholeRef = useRef<THREE.Mesh | null>(null);
   const geodesicsRef = useRef<THREE.LineSegments | null>(null);
   const entanglementParticlesRef = useRef<THREE.Points | null>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number>(undefined);
 
   useEffect(() => {
     if (!containerRef.current) return;

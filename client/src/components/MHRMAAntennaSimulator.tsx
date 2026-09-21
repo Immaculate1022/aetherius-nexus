@@ -17,7 +17,7 @@ export const MHRMAAntennaSimulator: React.FC<MHRMAAntennaProps> = ({
   const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
   const mobiusRef = useRef<THREE.Mesh | null>(null);
   const resonanceModeRef = useRef<THREE.Points | null>(null);
-  const animationRef = useRef<number | undefined>();
+  const animationRef = useRef<number | undefined>(undefined);
 
   useEffect(() => {
     if (!containerRef.current) return;

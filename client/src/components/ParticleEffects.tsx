@@ -15,7 +15,7 @@ interface Particle {
 export const ParticleEffects: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const particlesRef = useRef<Map<string, Particle>>(new Map());
-  const animationRef = useRef<number | undefined>();
+  const animationRef = useRef<number | undefined>(undefined);
   const nextIdRef = useRef<number>(0);
 
   useEffect(() => {
